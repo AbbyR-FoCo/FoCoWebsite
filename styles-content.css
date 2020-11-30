@@ -62,8 +62,6 @@ html, body{
     margin: 0;
     background: url(background.jpg) fixed no-repeat;
     background-size: cover; 
-    transform: scale(1.2);
-
 }
 
 .center {
@@ -160,10 +158,16 @@ a:hover{
     list-style-type: none;
 }
 
+/* I didn't realize Microsoft Edge was zoomed in 125% for all my live previews until I uploaded here, so the following is an attempt to fix that */
+
 head{
-    transform: scale(1.2);
+    transform: scale(1.25);
+}
+
+body{
+    transform: scale(1.25);
 }
 
 footer{
-    transform: scale(1.2);
+    transform: scale(1.25);
 }
