@@ -1,0 +1,161 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* Hi! My name is Abby Richardson and this is the beginning of my FoCo Web Page for GRC 377 */
+
+html, body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: url(background.jpg) fixed no-repeat;
+    background-size: cover; 
+
+}
+
+.center {
+    width: 1000px;
+	padding: 2%;
+    margin: 100px auto;
+	text-align: center;
+    border: 4px double white;
+    border-radius: 300px;
+
+}
+
+   
+#logo {
+    width: 7.5%;
+    float: left;
+    margin-left: 2em;
+}
+
+h1 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
+    font-family: lora, serif;
+    font-weight: 700;
+    text-align: center;
+    font-style: normal;
+    font-size: 7em;
+    margin: 0px auto 10px auto;
+    color: white;
+    text-shadow: 0 0 5px purple, 0 0 8px violet;
+}
+
+h2 {
+	 /* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
+     font-family: lora, serif;
+     font-weight: 700;
+     text-align: center;
+     font-style: normal;
+     font-size: 1.5em;
+     margin: 30px auto 0px auto;
+     color: white;
+     text-shadow: 0 0 5px purple, 0 0 8px violet;
+    
+}
+
+p {
+    font-family: lora, serif;
+    font-weight: 700;
+    text-align: center;
+    font-style: normal;
+    font-size: 1em;
+    margin: 0px auto 5px auto;
+    color: white;
+    text-shadow: 0 0 5px purple, 0 0 8px violet;
+	
+}
+  
+nav{
+    font-family: lora, serif;
+    font-size: 1.em;
+    width: 4000 px;
+    border-width: 0px 0;
+    text-align: right;
+    margin-top: 0.75em;
+    margin-bottom: 0;
+}
+    
+
+nav li{
+    display:inline;
+    text-align: center;
+}
+
+nav a{
+    display:inline-block;
+    padding:10px;
+    text-align: center;
+}
+
+a{
+    color:#ffffff;
+    text-decoration: none;
+    font-weight:200;
+    font-size: 1em;
+    text-shadow: 0 0 5px purple, 0 0 8px violet;
+}
+
+a:hover{
+    color:violet;
+    text-shadow: 0 0 5px purple, 0 0 8px white;
+}
+
+#li2{
+    display:inline;
+    list-style-type: none;
+}
+
