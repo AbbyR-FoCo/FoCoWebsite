@@ -160,14 +160,6 @@ a:hover{
 
 /* I didn't realize Microsoft Edge was zoomed in 125% for all my live previews until I uploaded here, so the following is an attempt to fix that */
 
-head{
-    transform: scale(1.25);
-}
-
 body{
-    transform: scale(1.25);
-}
-
-footer{
     transform: scale(1.25);
 }
