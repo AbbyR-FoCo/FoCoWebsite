@@ -63,7 +63,6 @@ html, body{
     background: url(background.jpg) fixed no-repeat;
     background-size: cover; 
     transform: scale(1.2);
-    transform-origin: 0 0;
 
 }
 
@@ -163,10 +162,8 @@ a:hover{
 
 head{
     transform: scale(1.2);
-    transform-origin: 0 0;
 }
 
 footer{
     transform: scale(1.2);
-    transform-origin: 0 0;
 }
