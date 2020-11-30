@@ -157,9 +157,3 @@ a:hover{
     display:inline;
     list-style-type: none;
 }
-
-/* I didn't realize Microsoft Edge was zoomed in 125% for all my live previews until I uploaded here, so the following is an attempt to fix that */
-
-body{
-    transform: scale(1.25);
-}
